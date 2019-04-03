@@ -4,8 +4,10 @@ g_ctp_parm_filename       = "DBASE/COIN/general_pt.param"
 g_ctp_parm_filename       = "DBASE/COIN/general.param"
 0-6180
 g_ctp_kinematics_filename = "DBASE/COIN/standard.kinematics"
-6181-99999
-g_ctp_kinematics_filename = "db2/auto_standard.kinematics"
+6181-7102
+g_ctp_kinematics_filename = "DBASE/auto_standard.kinematics"
+7103-99999
+g_ctp_kinematics_filename = "DBASE/COIN/spring_standard.kinematics"
 0-5417
 g_ctp_map_filename = "MAPS/COIN/DETEC/coin.map"
 5418-99999
