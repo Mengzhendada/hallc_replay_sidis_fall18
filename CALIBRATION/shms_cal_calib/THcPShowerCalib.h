@@ -538,11 +538,11 @@ bool THcPShowerCalib::ReadShRawTrack(THcPShTrack &trk, UInt_t ientry) {
   good_trk = P_tr_xp > -0.045+0.0025*P_tr_x;
   if (!good_trk) return 0;
 
-  //  bool good_ngcer = P_ngcer_npe[0] > fNGCerMin ||
-  //		    P_ngcer_npe[1] > fNGCerMin ||
-  //		    P_ngcer_npe[2] > fNGCerMin ||
-  //		    P_ngcer_npe[3] > fNGCerMin  ;
-  //  if(!good_ngcer) return 0;
+    bool good_ngcer = P_ngcer_npe[0] > fNGCerMin ||
+  		    P_ngcer_npe[1] > fNGCerMin ||
+  		    P_ngcer_npe[2] > fNGCerMin ||
+  		    P_ngcer_npe[3] > fNGCerMin  ;
+    if(!good_ngcer) return 0;
 
   bool good_hgcer = P_hgcer_npe[0] +
 		    P_hgcer_npe[1] +
@@ -869,9 +869,15 @@ void THcPShowerCalib::SolveAlphas() {
   // Assign the gain arrays.
 
   for (UInt_t i=0; i<THcPShTrack::fNpmts; i++) {
-    falphaU[i] = au[i];
-    falphaC[i] = ac[i];
+    if (fHitCount[i] >= fMinHitCount) {
+      falphaU[i] = au[i];
+      falphaC[i] = ac[i];
+    }
+    else {
+falphaC[i] = Previous Calibration!!!
+    }
   }
+
 
 }
 

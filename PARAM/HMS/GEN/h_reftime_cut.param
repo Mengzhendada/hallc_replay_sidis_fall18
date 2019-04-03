@@ -9,8 +9,19 @@
 ; Cut is on reference time per detector.
 hdc_tdcrefcut=-16500.
 hhodo_tdcrefcut=-3000.
-hhodo_adcrefcut=-3500.
-hcer_adcrefcut=-3500.
-hcal_adcrefcut=-3500.
+hhodo_adcrefcut=-4500.
+hcer_adcrefcut=-4500.
+hcal_adcrefcut=-4500.
 
+;hdc_tdcrefcut=-19000.
+;hhodo_tdcrefcut=-1000.
+;hhodo_adcrefcut=-2500.
+;hcer_adcrefcut=-2500.
+;hcal_adcrefcut=-2500.
 
+;;J/Psi coin daq
+;hdc_tdcrefcut=-16000.
+;hhodo_tdcrefcut=-3200.
+;hhodo_adcrefcut=-5000.
+;hcer_adcrefcut=-5000.
+;hcal_adcrefcut=-5000.
