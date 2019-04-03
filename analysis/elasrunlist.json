@@ -4,10 +4,10 @@
       "htheta_lab": 21.055,
       "ppcentral": 5.414,
       "ptheta_lab": 23.613,
-      "charge": 35.566,
+      "charge": 34.546,
       "ComputerLT": 0.9999,
-      "shmsTE": 0.9408,
-      "hmsTE": 0.9918,
+      "shmsTE": 0.9420,
+      "hmsTE": 0.9660,
       "normfac": 0.777945E+07
    },
    "6010": {
@@ -17,8 +17,8 @@
       "ptheta_lab": 25.009,
       "charge": 62.025,
       "ComputerLT": 1,
-      "shmsTE": 0.9494,
-      "hmsTE": 0.9878,
+      "shmsTE": 0.9499,
+      "hmsTE": 0.9693,
       "normfac": 0.676978E+07
    },
    "6012": {
@@ -27,9 +27,9 @@
       "ppcentral": 4.768,
       "ptheta_lab": 26.445,
       "charge": 65.901,
-      "ComputerLT": 1,
-      "shmsTE": 0.9550,
-      "hmsTE": 0.9879,
+      "ComputerLT": 0.9999,
+      "shmsTE": 0.9555,
+      "hmsTE": 0.9767,
       "normfac": 0.559641E+07
    },
    "6013": {
@@ -39,8 +39,8 @@
       "ptheta_lab": 23.39,
       "charge": 43.299,
       "ComputerLT": 1,
-      "shmsTE": 0.9250,
-      "hmsTE": 0.9854,
+      "shmsTE": 0.9253,
+      "hmsTE": 0.9703,
       "normfac": 0.840116E+07
    },
    "6016": {
