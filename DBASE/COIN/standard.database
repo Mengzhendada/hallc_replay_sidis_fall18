@@ -21,6 +21,7 @@ g_ctp_kinematics_filename = "db2/auto_standard_coin_fall18.kinematics"
 g_ctp_map_filename        = "MAPS/COIN/DETEC/coin_fall18.map"
 g_ctp_trigdet_filename    = "PARAM/TRIG/tcoin_fall18.param"
 
+
 # jpsi experiment
 # phase 1 kinematics
 7000-7273
@@ -58,9 +59,9 @@ g_ctp_map_filename        = "MAPS/COIN/DETEC/coin_spring19.map"
 g_ctp_trigdet_filename    = "PARAM/TRIG/tcoin_spring19.param"
 
 # CSV experiment: part 2 spring 2019
-7581-99999
+7581-9999
 g_ctp_parm_filename       = "DBASE/COIN/general_spring19.param"
-g_ctp_kinematics_filename = "db2/auto_standard_coin_spring19.kinematics"
+g_ctp_kinematics_filename = "db2/spring_standard.kinematics"
 g_ctp_map_filename        = "MAPS/COIN/DETEC/coin_spring19.map"
 g_ctp_trigdet_filename    = "PARAM/TRIG/tcoin_spring19.param"
 

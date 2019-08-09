@@ -226,7 +226,7 @@ void THcPShowerCalib::ReadThresholds() {
     falpha0[ipmt] = 0.;
   };
 
-  ifstream fin( "input.dat" );
+  ifstream fin( "CALIBRATION/shms_cal_calib/input.dat" );
 
   string line;
   istringstream iss;
@@ -874,7 +874,7 @@ void THcPShowerCalib::SolveAlphas() {
       falphaC[i] = ac[i];
     }
     else {
-falphaC[i] = Previous Calibration!!!
+//falphaC[i] = Previous Calibration!!!
     }
   }
 
