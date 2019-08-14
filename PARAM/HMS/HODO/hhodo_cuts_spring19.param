@@ -20,14 +20,14 @@ htofusinginvadc=0
 ; hscin_tdc_min       minimum tdc value in hms scin                             
 ;    hscin_tdc_min = -500                                                           
 
-; with 4698
+; with 7679
     hscin_tdc_min = -50                                                           
 
 ; hscin_tdc_max       maximum allowed tdc value                                 
 ;   hscin_tdc_max = 4000                                                         
 
-; with 4698
-   hscin_tdc_max = 800                                                         
+; with 7679
+   hscin_tdc_max = 950                                                         
 
 ; hscin_tdc_to_time   scin tdc time per channel                                 
    hscin_tdc_to_time = 0.09766   ;0.1 was before Dave Mack found the correct conversion in C1190 Manual (May 14, 2018); (See HC Log Entry 3574348)
