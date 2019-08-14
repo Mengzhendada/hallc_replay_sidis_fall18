@@ -847,7 +847,7 @@ void THcPShowerCalib::SolveAlphas() {
 
   au = lu.Solve(qe,ok);
   cout << "au: ok=" << ok << endl;
-  //  au.Print();
+    au.Print();
 
   // Find the sought 'constrained' calibration constants next.
 

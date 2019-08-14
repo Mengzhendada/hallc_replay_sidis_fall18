@@ -3,9 +3,9 @@ block CTime*
 block T.helicity.*
 
 block T.shms.*
-block T.hms.*
+#block T.hms.*
 
-block H.cer.*
+#block H.cer.*
 block H.dc.*
 block H.tr.*
 block H.hod.*
@@ -16,7 +16,7 @@ block H.rb.*
 block H.react.*
 #block H.bcm.*
 
-block P.ngcer.*
+#block P.ngcer.*
 block P.dc.*
 block P.tr.*
 block P.hod.*
