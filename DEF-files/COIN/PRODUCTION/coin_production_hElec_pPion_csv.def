@@ -138,6 +138,7 @@ variable P.ngcer.totNumTracksFired
 variable P.ngcer.totNumTracksMatched
 variable P.ngcer.xAtCer
 variable P.ngcer.yAtCer
+variable P.ngcer.npe
 
 ## block P.dc.*
 variable P.dc.ntrack
@@ -148,6 +149,16 @@ variable P.dc.yp_fp
 
 ## block P.tr.*
 variable P.tr.n
+variable P.tr.x
+variable P.tr.y
+variable P.tr.th
+variable P.tr.ph
+variable P.tr.p
+variable P.tr.tg_dp
+variable P.tr.tg_ph
+variable P.tr.tg_th
+variable P.tr.tg_y
+variable P.tr.beta
 
 ## block P.hod.*
 variable P.hod.1x.DiffDisTrack
@@ -189,6 +200,7 @@ variable P.hgcer.totNumTracksFired
 variable P.hgcer.totNumTracksMatched
 variable P.hgcer.xAtCer
 variable P.hgcer.yAtCer
+variable P.hgcer.npe
 
 ## block P.aero.*
 variable P.aero.npeSum
@@ -216,6 +228,11 @@ variable P.cal.pr.eplane_neg
 variable P.cal.pr.eplane_pos
 variable P.cal.pr.totnumAdcHits
 variable P.cal.pr.totnumGoodAdcHits
+variable P.cal.fly.nclust
+variable P.cal.fly.ntracks
+variable P.cal.pr.goodPosAdcPulseInt
+variable P.cal.pr.goodNegAdcPulseInt
+variable P.cal.fly.goodAdcPulseInt
 
 ## SHMS golden track
 block P.gtr.*

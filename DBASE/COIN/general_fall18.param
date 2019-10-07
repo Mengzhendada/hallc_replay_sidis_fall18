@@ -75,7 +75,7 @@ cminch=2.54
 #include "PARAM/SHMS/HODO/phodo_Vpcalib_fall18.param"
 #include "PARAM/SHMS/HGCER/phgcer_calib.param"
 #include "PARAM/SHMS/AERO/paero_calib.param"
-#include "PARAM/SHMS/CAL/pcal_calib_6088.param"
+#include "PARAM/SHMS/CAL/shms_cal_gain_6068to6559.param"
 
 
 ;#include "PARAM/SHMS/CAL/pcal_calib_defocused.param"
