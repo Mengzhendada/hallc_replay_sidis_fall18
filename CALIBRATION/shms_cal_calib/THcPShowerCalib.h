@@ -226,7 +226,11 @@ void THcPShowerCalib::ReadThresholds() {
     falpha0[ipmt] = 0.;
   };
 
+<<<<<<< HEAD
   ifstream fin( "CALIBRATION/shms_cal_calib/input.dat" );
+=======
+  ifstream fin( "/CALIBRATION/shms_cal_calib/input.dat" );
+>>>>>>> 5553a864c910fd696d2f554e712f116e9cb7e6f1
 
   string line;
   istringstream iss;
@@ -847,7 +851,7 @@ void THcPShowerCalib::SolveAlphas() {
 
   au = lu.Solve(qe,ok);
   cout << "au: ok=" << ok << endl;
-  //  au.Print();
+    au.Print();
 
   // Find the sought 'constrained' calibration constants next.
 

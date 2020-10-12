@@ -31,14 +31,18 @@ variable T.coin.pDCREF1_tdcTimeRaw
 variable T.coin.pT2_tdcMultiplicity
 variable T.coin.pT2_tdcTime
 variable T.coin.pT2_tdcTimeRaw
+variable T.coin.pRF_tdcTime
 
 ## block CTime.*
 variable CTime.ePositronCoinTime_ROC1
 variable CTime.ePositronCoinTime_ROC2
+variable CTime.ePiCoinTime_ROC1
+variable CTime.ePiCoinTime_ROC2
 
 ## block T.helicity.*
 
 ## block H.cer.*
+variable H.cer.npe
 variable H.cer.npeSum
 variable H.cer.totNumAdcHits
 variable H.cer.totNumGoodAdcHits
@@ -56,6 +60,13 @@ variable H.dc.yp_fp
 
 ## block H.tr.*
 variable H.tr.n
+variable H.tr.x
+variable H.tr.y
+variable H.tr.th
+variable H.tr.ph
+variable H.tr.p
+variable H.tr.tg_dp
+variable H.tr.beta
 
 ## block H.hod.*
 variable H.hod.1x.DiffDisTrack
@@ -92,21 +103,29 @@ variable H.cal.1pr.eplane_neg
 variable H.cal.1pr.eplane_pos
 variable H.cal.1pr.totnumAdcHits
 variable H.cal.1pr.totnumGoodAdcHits
+variable H.cal.1pr.goodNegAdcPulseInt
+variable H.cal.1pr.goodPosAdcPulseInt
 variable H.cal.2ta.eplane
 variable H.cal.2ta.eplane_neg
 variable H.cal.2ta.eplane_pos
 variable H.cal.2ta.totnumAdcHits
 variable H.cal.2ta.totnumGoodAdcHits
+variable H.cal.2ta.goodNegAdcPulseInt
+variable H.cal.2ta.goodPosAdcPulseInt
 variable H.cal.3ta.eplane
 variable H.cal.3ta.eplane_neg
 variable H.cal.3ta.eplane_pos
 variable H.cal.3ta.totnumAdcHits
 variable H.cal.3ta.totnumGoodAdcHits
+variable H.cal.3ta.goodNegAdcPulseInt
+variable H.cal.3ta.goodPosAdcPulseInt
 variable H.cal.4ta.eplane
 variable H.cal.4ta.eplane_neg
 variable H.cal.4ta.eplane_pos
 variable H.cal.4ta.totnumAdcHits
 variable H.cal.4ta.totnumGoodAdcHits
+variable H.cal.4ta.goodNegAdcPulseInt
+variable H.cal.4ta.goodPosAdcPulseInt
 variable H.cal.eprtrack
 variable H.cal.eprtracknorm
 variable H.cal.etot

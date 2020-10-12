@@ -38,3 +38,6 @@ hcer_adc_tdc_offset= 0.
 
 hcer_adcTimeWindowMin =  77.2, 80.0
 hcer_adcTimeWindowMax = 132.2, 135.0
+
+;6111
+hcer_PedDefault= 2156, 1935    

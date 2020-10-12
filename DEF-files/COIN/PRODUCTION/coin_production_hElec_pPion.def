@@ -31,8 +31,9 @@ variable T.coin.pDCREF1_tdcTimeRaw
 variable T.coin.pT2_tdcMultiplicity
 variable T.coin.pT2_tdcTime
 variable T.coin.pT2_tdcTimeRaw
+variable T.coin.pRF_tdcTime
 
-## block CTime.*
+block CTime.*
 variable CTime.ePositronCoinTime_ROC1
 variable CTime.ePositronCoinTime_ROC2
 
@@ -47,7 +48,7 @@ variable H.cer.totNumTracksMatched
 variable H.cer.xAtCer
 variable H.cer.yAtCer
 
-# block H.dc.*
+ block H.dc.*
 variable H.dc.ntrack
 variable H.dc.x_fp
 variable H.dc.xp_fp
@@ -139,7 +140,7 @@ variable P.ngcer.totNumTracksMatched
 variable P.ngcer.xAtCer
 variable P.ngcer.yAtCer
 
-## block P.dc.*
+block P.dc.*
 variable P.dc.ntrack
 variable P.dc.x_fp
 variable P.dc.xp_fp
@@ -226,6 +227,7 @@ block P.kin.*
 
 ## block P.react.* <-- not sure what for
 
+
 begin epics
 IBC3H00CRCUR4
 hac_bcm_average
@@ -253,4 +255,5 @@ IPM3H07B.YSOF
 IPM3H07C.XSOF
 IPM3H07C.YSOF
 end epics
+
 

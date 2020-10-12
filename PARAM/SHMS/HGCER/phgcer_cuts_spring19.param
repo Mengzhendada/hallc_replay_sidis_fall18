@@ -31,3 +31,6 @@ phgcer_adc_tdc_offset   =  200.0
 phgcer_adcTimeWindowMin = 6.2, 4.6, 4.2, 4.6
 phgcer_adcTimeWindowMax = 66.2, 64.6, 64.2, 64.6
  
+;spring 7594
+phgcer_PedDefault= 2085, 2145, 2309, 1981                      
+pngcer_PedDefault= 2085, 2072, 2032, 1957                      
